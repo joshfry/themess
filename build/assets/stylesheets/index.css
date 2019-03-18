@@ -24,6 +24,7 @@ body {
 
 .splash {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 10vw;
@@ -34,4 +35,8 @@ body {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+}
+
+.coming-soon {
+  font-size: 40px;
 }
