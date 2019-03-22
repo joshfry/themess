@@ -1,20 +1,51 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
+import logo from '../images/the-mess-logo.svg';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <SEO title="Home" />
+    <h1
+      style={{
+        opacity: `0`,
+        position: `fixed`,
+        top: `0`,
+        left: `0`,
+        height: `0`,
+        margin: `0`,
+      }}
+    >
+      The Mess
+    </h1>
+    <div
+      style={{
+        display: `flex`,
+        flexDirection: `column`,
+        alignItems: `center`,
+        justifyContent: `center`,
+        padding: `10vw`,
+        height: `100vh`,
+      }}
+    >
+      <div
+        style={{
+          width: `100%`,
+          maxWidth: `600px`,
+          margin: `0 auto`,
+        }}
+      >
+        <img src={logo} alt="" />
+      </div>
+      <h2
+        style={{
+          fontSize: `40px`,
+        }}
+      >
+        Coming Soon
+      </h2>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 );
 
