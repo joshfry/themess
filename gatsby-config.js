@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `The Mess`,
     description: `A unique blend of electronica and hard rock. The Mess have a knack for connecting with the listener in a way few have done before with music that's honest, open, and always sentimental.`,
-    // author: `@gatsbyjs`,
+    author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
