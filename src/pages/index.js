@@ -25,8 +25,8 @@ const IndexPage = () => (
         flexDirection: `column`,
         alignItems: `center`,
         justifyContent: `center`,
-        padding: `10vw`,
-        height: `100vh`,
+        padding: `5vw`,
+        height: `90vh`,
       }}
     >
       <div
