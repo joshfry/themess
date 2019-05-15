@@ -1,13 +1,13 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "themess.band",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Website for The Mess",
+  "homepage": "https://themess.band",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Josh Fry <joshdfry@me.com>",
   "dependencies": {
     "gatsby": "^2.4.5",
     "gatsby-image": "^2.0.34",
-    "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-google-analytics": "^2.0.20",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
@@ -22,7 +22,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "sanitize.css": "^8.0.0"
   },
   "devDependencies": {
     "eslint": "^5.15.3",
@@ -48,9 +49,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/joshfry/themess"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/joshfry/themess/issues"
   }
 }
