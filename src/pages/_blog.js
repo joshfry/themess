@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 export default ({ data }) => {
   return (
     <Layout>
-      <div>
+      <div style={{ backgroundColor: '#eee' }}>
         <h1>Amazing Pandas Eating Things</h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
