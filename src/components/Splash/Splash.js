@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import Logo from 'components/Logo';
@@ -11,6 +12,10 @@ const Splash = () => (
     <h1 className="Splash__title">The Mess</h1>
     <div className="Splash__logo">
       <Logo />
+    </div>
+    <div className="linkto">
+      <h1>The Mess &rdquo;Realities&ldquo; Out Now</h1>
+      <Link to="/music/realities">Listen</Link>
     </div>
     <div className="Splash__social-links">
       <div className="Splash__social-links__item">
