@@ -28,30 +28,17 @@ const IndexPage = () => (
           <h2>Stream</h2>
           <ul className="links">
             <li className="links__item">
-              <a href="https://geo.itunes.apple.com/us/album/realities/1463980458?i=1463980461&uo=4&app=music&ls=1&at=1000lHKX">
+              <a href="https://music.apple.com/us/album/worth-fighting-for-single/1471726180">
                 Apple Music
               </a>
             </li>
             <li className="links__item">
-              <a href="https://open.spotify.com/track/3td3K2M2xJkgkvIdq7RIcx">
+              <a href="https://open.spotify.com/album/3dRQBk1mOJLp56palNkW50">
                 Spotify
               </a>
             </li>
             <li className="links__item">
-              <a href="https://play.google.com/music/m/T4x2u7n2up4vtt5wqfneqmzvgrq?signup_if_needed=1">
-                Google Play
-              </a>
-            </li>
-            <li className="links__item">
-              <a href="https://www.deezer.com/track/680989742">Deezer</a>
-            </li>
-            <li className="links__item">
-              <a href="https://soundcloud.com/themessrock/realities">
-                Soundcloud
-              </a>
-            </li>
-            <li className="links__item">
-              <a href="https://listen.tidal.com/track/109490902">Tidal</a>
+              <a href="https://listen.tidal.com/album/112753766">Tidal</a>
             </li>
           </ul>
         </div>
@@ -59,12 +46,12 @@ const IndexPage = () => (
           <h2>Buy</h2>
           <ul className="links">
             <li className="links__item">
-              <a href="https://geo.itunes.apple.com/us/album/realities/1463980458?i=1463980461&uo=4&app=itunes&ls=1&at=1000lHKX">
+              <a href="https://music.apple.com/us/album/worth-fighting-for-single/1471726180?app=itunes">
                 iTunes
               </a>
             </li>
             <li className="links__item">
-              <a href="https://play.google.com/store/music/album?id=B24y6aw3gttuaehtfkwigjz4opi&tid=song-T4x2u7n2up4vtt5wqfneqmzvgrq">
+              <a href="https://play.google.com/store/music/album?id=Bog3tmuzrwmqzd6t4vgtb6veeqe&tid=song-Tsgrtfggjrll3gtu6bkhi4zjm3y&hl=en_US">
                 Google Play
               </a>
             </li>

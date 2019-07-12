@@ -28,18 +28,13 @@ const IndexPage = () => (
           <h2>Stream</h2>
           <ul className="links">
             <li className="links__item">
-              <a href="https://geo.itunes.apple.com/us/album/realities/1463980458?i=1463980461&uo=4&app=music&ls=1&at=1000lHKX">
+              <a href="https://music.apple.com/us/album/realities-single/1463980458">
                 Apple Music
               </a>
             </li>
             <li className="links__item">
-              <a href="https://open.spotify.com/track/3td3K2M2xJkgkvIdq7RIcx">
+              <a href="https://open.spotify.com/album/0XGyfREESFtILKrhjbhIZV">
                 Spotify
-              </a>
-            </li>
-            <li className="links__item">
-              <a href="https://play.google.com/music/m/T4x2u7n2up4vtt5wqfneqmzvgrq?signup_if_needed=1">
-                Google Play
               </a>
             </li>
             <li className="links__item">
@@ -51,7 +46,7 @@ const IndexPage = () => (
               </a>
             </li>
             <li className="links__item">
-              <a href="https://listen.tidal.com/track/109490902">Tidal</a>
+              <a href="https://listen.tidal.com/album/109490901">Tidal</a>
             </li>
           </ul>
         </div>
@@ -59,7 +54,7 @@ const IndexPage = () => (
           <h2>Buy</h2>
           <ul className="links">
             <li className="links__item">
-              <a href="https://geo.itunes.apple.com/us/album/realities/1463980458?i=1463980461&uo=4&app=itunes&ls=1&at=1000lHKX">
+              <a href="https://music.apple.com/us/album/realities-single/1463980458?app=itunes">
                 iTunes
               </a>
             </li>

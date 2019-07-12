@@ -4,6 +4,7 @@ import React from 'react';
 
 import Container from 'components/Container';
 import ContainerInner from 'components/ContainerInner';
+import Splash from 'components/Splash';
 import Logo from 'components/Logo';
 import VisuallyHidden from 'components/VisuallyHidden';
 import COLOR from 'constants/color';
@@ -27,6 +28,7 @@ const Header = ({ siteTitle }) => (
             </VisuallyHidden>
             <Logo color={COLOR.yellow} />
           </Link>
+          <Splash />
           {/* <nav className="Header__nav">
             <span className="Header__nav__item">Link</span>
             <span className="Header__nav__item">Link</span>

@@ -10,7 +10,6 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 
 import Header from 'components/Header';
-import Splash from 'components/Splash';
 
 import 'sanitize.css';
 import 'sanitize.css/typography.css';
@@ -37,7 +36,6 @@ const Layout = ({ children }) => (
             ©{new Date().getFullYear()} {data.site.siteMetadata.title}
           </footer>
         */}
-        <Splash />
       </React.Fragment>
     )}
   />
