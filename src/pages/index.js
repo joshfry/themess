@@ -18,7 +18,7 @@ const IndexPage = () => (
             <StaticQuery
               query={graphql`
                 query {
-                  placeholderImage: file(
+                  one: file(
                     relativePath: { eq: "images/worth-fighting-for-cover.jpg" }
                   ) {
                     childImageSharp {
@@ -40,9 +40,7 @@ const IndexPage = () => (
                   }
                 }
               `}
-              render={data => (
-                <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-              )}
+              render={data => <Img fluid={data.one.childImageSharp.fluid} />}
             />
             <br />
             <Link to="/music/worth-fighting-for">
@@ -53,10 +51,10 @@ const IndexPage = () => (
         <div>
           <h2>Realities</h2>
           <div className="linkto">
-            <StaticQuery
+            {/* <StaticQuery
               query={graphql`
                 query {
-                  placeholderImage: file(
+                  two: file(
                     relativePath: { eq: "images/realities-cover.jpg" }
                   ) {
                     childImageSharp {
@@ -78,11 +76,9 @@ const IndexPage = () => (
                   }
                 }
               `}
-              render={data => (
-                <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-              )}
+              render={data => <Img fluid={data.two.childImageSharp.fluid} />}
             />
-            <br />
+            <br /> */}
             <Link to="/music/realities">Stream &ldquo;Realities&rdquo;</Link>
           </div>
         </div>

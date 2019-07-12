@@ -1,22 +1,22 @@
 import React from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
-import Logo from 'components/Logo';
+// import Logo from 'components/Logo';
 import Icon from 'components/Icon';
 
 import './Splash.scss';
 
 const Splash = () => (
   <div className="Splash">
-    <h1 className="Splash__title">The Mess</h1>
+    {/* <h1 className="Splash__title">The Mess</h1>
     <div className="Splash__logo">
       <Logo />
     </div>
     <div className="linkto">
       <h1>The Mess &rdquo;Realities&ldquo; Out Now</h1>
       <Link to="/music/realities">Listen</Link>
-    </div>
+    </div> */}
     <div className="Splash__social-links">
       <div className="Splash__social-links__item">
         <OutboundLink href="https://www.facebook.com/official.the.mess/">
