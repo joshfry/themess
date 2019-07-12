@@ -16,7 +16,7 @@ const IndexPage = () => (
               title="The Mess - Worth Fighting For"
               width="700"
               height="700"
-              src="https://www.youtube.com/embed/t3-YGP0MLYk"
+              src="https://www.youtube.com/embed/b4Ht1nbsskk"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
