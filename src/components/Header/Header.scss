@@ -1,5 +1,32 @@
 .Header {
-  height: 100px;
-  display: flex;
-  align-items: center;
+  display: flex; // TEMP
+  align-items: center; // TEMP
+  height: 140px; // TEMP
+
+  &__top-bar {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__nav-bar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; // TEMP
+  }
+
+  &__nav {
+    margin-left: auto;
+
+    &__item {
+      margin-left: 30px;
+    }
+  }
+
+  &__branding {
+    width: 100%;
+    max-width: 120px;
+  }
 }

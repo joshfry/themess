@@ -13,7 +13,7 @@ const IndexPage = () => (
         <div>
           <div className="video-container">
             <iframe
-              title="The Mess - Realities"
+              title="The Mess - Worth Fighting For"
               width="853"
               height="480"
               src="https://www.youtube.com/embed/_-_BoNICzng"
@@ -24,7 +24,7 @@ const IndexPage = () => (
           </div>
         </div>
         <div>
-          <h1>Realities</h1>
+          <h1>Worth Fighting For</h1>
           <h2>Stream</h2>
           <ul className="links">
             <li className="links__item">
