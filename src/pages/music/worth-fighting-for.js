@@ -14,9 +14,9 @@ const IndexPage = () => (
           <div className="video-container">
             <iframe
               title="The Mess - Worth Fighting For"
-              width="853"
-              height="480"
-              src="https://www.youtube.com/embed/_-_BoNICzng"
+              width="700"
+              height="700"
+              src="https://www.youtube.com/embed/t3-YGP0MLYk"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
