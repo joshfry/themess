@@ -49,7 +49,7 @@ const IndexPage = pageQuery => {
 export const squareImage = graphql`
   fragment squareImage on File {
     childImageSharp {
-      fluid(maxWidth: 500, maxHeight: 500) {
+      fluid(maxWidth: 800, maxHeight: 800) {
         ...GatsbyImageSharpFluid
       }
     }
