@@ -5,18 +5,18 @@ import Layout from 'components/Layout';
 import Container from 'components/Container';
 import ContainerInner from 'components/ContainerInner';
 
-const WorthFightingForPage = () => (
+const FollowPage = () => (
   <Layout>
-    <SEO title="Worth Fighting For" />
+    <SEO title="Follow" />
     <Container>
       <ContainerInner narrow>
         <div>
           <div className="video-container">
             <iframe
-              title="The Mess - Worth Fighting For"
+              title="Follow"
               width="700"
               height="700"
-              src="https://www.youtube.com/embed/b4Ht1nbsskk"
+              src="https://www.youtube.com/embed/WYCHgXmZwrU"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -24,12 +24,12 @@ const WorthFightingForPage = () => (
           </div>
         </div>
         <div>
-          <h1>Worth Fighting For</h1>
+          <h1>Follow</h1>
           <h2>Stream</h2>
           <ul className="links">
             <li className="links__item">
               <a
-                href="https://music.apple.com/us/album/worth-fighting-for-single/1471726180"
+                href="https://music.apple.com/us/album/follow-single/1475679725"
                 target="external"
               >
                 Apple Music
@@ -37,7 +37,7 @@ const WorthFightingForPage = () => (
             </li>
             <li className="links__item">
               <a
-                href="https://open.spotify.com/album/3dRQBk1mOJLp56palNkW50"
+                href="https://open.spotify.com/album/6vwByXNucVH9ds8DD9CA4V"
                 target="external"
               >
                 Spotify
@@ -45,7 +45,7 @@ const WorthFightingForPage = () => (
             </li>
             <li className="links__item">
               <a
-                href="https://listen.tidal.com/album/112753766"
+                href="https://listen.tidal.com/album/114941537"
                 target="external"
               >
                 Tidal
@@ -58,7 +58,7 @@ const WorthFightingForPage = () => (
           <ul className="links">
             <li className="links__item">
               <a
-                href="https://music.apple.com/us/album/worth-fighting-for-single/1471726180?app=itunes"
+                href="https://music.apple.com/us/album/follow-single/1475679725?app=itunes"
                 target="external"
               >
                 iTunes
@@ -66,7 +66,7 @@ const WorthFightingForPage = () => (
             </li>
             <li className="links__item">
               <a
-                href="https://play.google.com/store/music/album?id=Bog3tmuzrwmqzd6t4vgtb6veeqe&tid=song-Tsgrtfggjrll3gtu6bkhi4zjm3y&hl=en_US"
+                href="https://play.google.com/store/music/album?id=Boxancofojxmyuxneobukiggu2u&tid=song-T55fhlyiksmmivjerz53iwul25u&hl=en_US"
                 target="external"
               >
                 Google Play
@@ -79,4 +79,4 @@ const WorthFightingForPage = () => (
   </Layout>
 );
 
-export default WorthFightingForPage;
+export default FollowPage;
