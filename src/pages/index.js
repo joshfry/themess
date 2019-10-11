@@ -8,14 +8,22 @@ import Container from 'components/Container';
 import ContainerInner from 'components/ContainerInner';
 
 const IndexPage = pageQuery => {
-  const { realities, worthFightingFor, follow } = pageQuery.data;
+  const { realities, worthFightingFor, follow, heartless } = pageQuery.data;
   return (
     <Layout>
       <SEO title="Home" />
       <Container>
         <ContainerInner superNarrow>
           <div>
-            <h2>Follow - Out Now</h2>
+            <h2>Heartless - Out Now</h2>
+            <Img fluid={heartless.childImageSharp.fluid} />
+            <br />
+            <div className="linkto">
+              <Link to="/music/heartless">Stream &ldquo;Heartless&rdquo;</Link>
+            </div>
+          </div>
+          <div>
+            <h2>Follow</h2>
             <Img fluid={follow.childImageSharp.fluid} />
             <br />
             <div className="linkto">
@@ -67,6 +75,9 @@ export const pageQuery = graphql`
       ...squareImage
     }
     follow: file(relativePath: { eq: "images/follow-cover.jpg" }) {
+      ...squareImage
+    }
+    heartless: file(relativePath: { eq: "images/heartless-cover.jpg" }) {
       ...squareImage
     }
   }
