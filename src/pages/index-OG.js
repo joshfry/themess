@@ -7,47 +7,45 @@ import Layout from 'components/Layout';
 import Container from 'components/Container';
 import ContainerInner from 'components/ContainerInner';
 
-import './index.scss';
-
 const IndexPage = pageQuery => {
   const { realities, worthFightingFor, follow, heartless } = pageQuery.data;
   return (
     <Layout>
       <SEO title="Home" />
       <Container>
-        <ContainerInner>
-          <div className="albums">
-            <div className="album">
-              <Link to="/music/heartless">
-                <Img
-                  fluid={heartless.childImageSharp.fluid}
-                  alt="Stream - Heartless - Out Now"
-                />
-              </Link>
+        <ContainerInner superNarrow>
+          <div>
+            <h2>Heartless - Out Now</h2>
+            <Img fluid={heartless.childImageSharp.fluid} />
+            <br />
+            <div className="linkto">
+              <Link to="/music/heartless">Stream &ldquo;Heartless&rdquo;</Link>
             </div>
-            <div className="album">
-              <Link to="/music/follow">
-                <Img
-                  fluid={follow.childImageSharp.fluid}
-                  alt="Stream - Follow"
-                />
-              </Link>
+          </div>
+          <div>
+            <h2>Follow</h2>
+            <Img fluid={follow.childImageSharp.fluid} />
+            <br />
+            <div className="linkto">
+              <Link to="/music/follow">Stream &ldquo;Follow&rdquo;</Link>
             </div>
-            <div className="album">
+          </div>
+          <div>
+            <h2>Worth Fighting For</h2>
+            <Img fluid={worthFightingFor.childImageSharp.fluid} />
+            <br />
+            <div className="linkto">
               <Link to="/music/worth-fighting-for">
-                <Img
-                  fluid={worthFightingFor.childImageSharp.fluid}
-                  alt="Stream - Worth Fighting For"
-                />
+                Stream &ldquo;Worth&nbsp;Fighting&nbsp;For&rdquo;
               </Link>
             </div>
-            <div className="album">
-              <Link to="/music/realities">
-                <Img
-                  fluid={realities.childImageSharp.fluid}
-                  alt="Stream - Realities"
-                />
-              </Link>
+          </div>
+          <div>
+            <h2>Realities</h2>
+            <Img fluid={realities.childImageSharp.fluid} />
+            <br />
+            <div className="linkto">
+              <Link to="/music/realities">Stream &ldquo;Realities&rdquo;</Link>
             </div>
           </div>
         </ContainerInner>

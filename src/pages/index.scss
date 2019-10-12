@@ -1,0 +1,18 @@
+.albums {
+  @media (min-width: 700px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .album {
+    @media (min-width: 700px) {
+      flex: 50%;
+    }
+
+    transition: 0.3s;
+
+    &:hover {
+      opacity: 0.66;
+    }
+  }
+}

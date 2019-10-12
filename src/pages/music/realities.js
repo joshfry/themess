@@ -9,7 +9,7 @@ const RealitiesPage = () => (
   <Layout>
     <SEO title="Realities" />
     <Container>
-      <ContainerInner narrow>
+      <ContainerInner>
         <div>
           <div className="video-container">
             <iframe

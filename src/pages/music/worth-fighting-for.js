@@ -9,7 +9,7 @@ const WorthFightingForPage = () => (
   <Layout>
     <SEO title="Worth Fighting For" />
     <Container>
-      <ContainerInner narrow>
+      <ContainerInner>
         <div>
           <div className="video-container">
             <iframe

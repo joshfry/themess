@@ -9,7 +9,7 @@ const FollowPage = () => (
   <Layout>
     <SEO title="Follow" />
     <Container>
-      <ContainerInner narrow>
+      <ContainerInner>
         <div>
           <div className="video-container">
             <iframe

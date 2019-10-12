@@ -9,7 +9,7 @@ const HeartlessPage = () => (
   <Layout>
     <SEO title="Heartless" />
     <Container>
-      <ContainerInner narrow>
+      <ContainerInner>
         <div>
           <div className="video-container">
             <iframe
