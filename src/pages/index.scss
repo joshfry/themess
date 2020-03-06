@@ -1,12 +1,12 @@
 .albums {
-  @media (min-width: 700px) {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  flex-wrap: wrap;
 
   .album {
+    flex: 50%;
+
     @media (min-width: 700px) {
-      flex: 50%;
+      flex: 33.333%;
     }
 
     transition: 0.3s;

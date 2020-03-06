@@ -10,13 +10,27 @@ import ContainerInner from 'components/ContainerInner';
 import './index.scss';
 
 const IndexPage = pageQuery => {
-  const { realities, worthFightingFor, follow, heartless } = pageQuery.data;
+  const {
+    realities,
+    worthFightingFor,
+    follow,
+    heartless,
+    monsterInTheMirror,
+  } = pageQuery.data;
   return (
     <Layout>
       <SEO title="Home" />
       <Container>
         <ContainerInner>
           <div className="albums">
+            <div className="album">
+              <Link to="/music/monster-in-the-mirror">
+                <Img
+                  fluid={monsterInTheMirror.childImageSharp.fluid}
+                  alt="Stream - Heartless - Out Now"
+                />
+              </Link>
+            </div>
             <div className="album">
               <Link to="/music/heartless">
                 <Img
@@ -49,6 +63,7 @@ const IndexPage = pageQuery => {
                 />
               </Link>
             </div>
+            <div className="album"></div>
           </div>
         </ContainerInner>
       </Container>
@@ -80,6 +95,11 @@ export const pageQuery = graphql`
       ...squareImage
     }
     heartless: file(relativePath: { eq: "images/heartless-cover.jpg" }) {
+      ...squareImage
+    }
+    monsterInTheMirror: file(
+      relativePath: { eq: "images/monster-in-the-mirror.jpg" }
+    ) {
       ...squareImage
     }
   }
