@@ -11,18 +11,17 @@ const MonsterInTheMirrorPage = () => (
     <Container>
       <ContainerInner>
         <div>
-          <h2>Monster in the Mirror - Coming Soon</h2>
-          {/* <div className="video-container">
+          <div className="video-container">
             <iframe
-              title="Heartless"
+              title="Monster in the Mirror"
               width="700"
               height="700"
-              src="https://www.youtube.com/embed/L8tWszZNJe4"
+              src="https://www.youtube.com/embed/pSbuJnAifeo"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
-          </div> */}
+          </div>
         </div>
       </ContainerInner>
     </Container>
