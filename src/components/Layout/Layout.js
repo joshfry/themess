@@ -10,6 +10,7 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 
 import Header from 'components/Header';
+import Footer from 'components/Footer';
 
 import 'sanitize.css';
 import 'sanitize.css/typography.css';
@@ -31,11 +32,7 @@ const Layout = ({ children }) => (
       <React.Fragment>
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
-        {/*
-        <footer>
-            ©{new Date().getFullYear()} {data.site.siteMetadata.title}
-          </footer>
-        */}
+        <Footer />
       </React.Fragment>
     )}
   />

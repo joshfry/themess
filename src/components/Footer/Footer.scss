@@ -1,0 +1,33 @@
+.Footer {
+  color: #f1c15d;
+  text-align: center;
+
+  &__copyright {
+    @media (max-width: 699px) {
+      order: 2;
+      margin-top: 2em;
+    }
+
+    @media (min-width: 700px) {
+      text-align: left;
+    }
+  }
+
+  &__inner {
+    @media (max-width: 699px) {
+      flex-direction: column;
+    }
+
+    display: flex;
+    padding: 3em 0;
+
+    > div {
+      flex: 33%;
+    }
+
+    @media (min-width: 700px) {
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+}
